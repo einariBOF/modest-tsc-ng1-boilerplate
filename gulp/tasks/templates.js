@@ -8,7 +8,6 @@ var insert = require('gulp-insert');
 var config = require('../config');
 
 gulp.task('templates', function() {
-    console.log('temp');
 
     gulp.src('app/index.html')
         .pipe(changed(config.dev.root))
